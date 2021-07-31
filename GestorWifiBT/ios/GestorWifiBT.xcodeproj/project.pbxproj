@@ -8,12 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* GestorWifiBTTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* GestorWifiBTTests.m */; };
+		0DFE616626B1F13C00EA1E97 /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DFE616526B1F13C00EA1E97 /* ExternalAccessory.framework */; };
+		0DFE616826B1F16500EA1E97 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DFE616726B1F16500EA1E97 /* MapKit.framework */; };
+		1154F98177004A52BC53393D /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5DA006F38104C2C807F7FAA /* EvilIcons.ttf */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		13DBBB7C054D4FFF836350B1 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D1B3283EE17244C1BC1EE5FA /* SimpleLineIcons.ttf */; };
+		2322509E71964B8CAFB62CF1 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A24E9537D16B42D0BD4544D6 /* MaterialIcons.ttf */; };
+		29A89D517C8641C1A5255C9E /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 370E45FBEE044584A3AC57C8 /* AntDesign.ttf */; };
+		2AA596CBCF8040E2B4C47B54 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C1F33046F084C9D8B16923F /* Ionicons.ttf */; };
+		36B1AAC619ED4D77A9C6060B /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 15FA55B7F64D450C84922958 /* Foundation.ttf */; };
+		41094DE6A360469C9B10F318 /* FontAwesome5_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 857C3893181E45158EA47590 /* FontAwesome5_Brands.ttf */; };
 		4BB88D54EB35E74255B59412 /* libPods-GestorWifiBT.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF020409AC31DA6A94DA386E /* libPods-GestorWifiBT.a */; };
+		4EF05EB9A5074760A36704E7 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2654444A5B554E8BBCD09639 /* Zocial.ttf */; };
+		713AE824F4934496913E2B35 /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 396CBA5BAE2B422FA816EEB9 /* Octicons.ttf */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		8CDF837F99DE4AA3866ABED9 /* Fontisto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E5F3A5C55D574B1D8FF1D3D5 /* Fontisto.ttf */; };
+		A7FE33BD385044C78F4D881B /* FontAwesome5_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 622F05B15EAA40EABF5B600F /* FontAwesome5_Regular.ttf */; };
+		BA939128A11A406B8AD30B53 /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 47839B2D322B4ED7853AC6BB /* MaterialCommunityIcons.ttf */; };
+		BEB6DAE6E65C4BCA82072B6D /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BCF156F2CF3846A09665A081 /* Entypo.ttf */; };
+		D1684E1AC96841FDBE4EB284 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 823B07D2C0A24667B169D21F /* FontAwesome.ttf */; };
+		D6CB567D87754CA68AA869E4 /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1A4028EFF5234C7C9E6D4B19 /* FontAwesome5_Solid.ttf */; };
 		F97B915DA24FB224DCF40EF3 /* libPods-GestorWifiBT-GestorWifiBTTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A5B74174F19AC21276CE0B9 /* libPods-GestorWifiBT-GestorWifiBTTests.a */; };
+		FB133421EA3B43A886D47DA2 /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7726C14A52A345BBBB5F82F0 /* Feather.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,17 +48,36 @@
 		00E356EE1AD99517003FC87E /* GestorWifiBTTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GestorWifiBTTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* GestorWifiBTTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GestorWifiBTTests.m; sourceTree = "<group>"; };
+		0DFE616426B1EE9000EA1E97 /* GestorWifiBT.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = GestorWifiBT.entitlements; path = GestorWifiBT/GestorWifiBT.entitlements; sourceTree = "<group>"; };
+		0DFE616526B1F13C00EA1E97 /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		0DFE616726B1F16500EA1E97 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		13B07F961A680F5B00A75B9A /* GestorWifiBT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GestorWifiBT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = GestorWifiBT/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = GestorWifiBT/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = GestorWifiBT/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = GestorWifiBT/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = GestorWifiBT/main.m; sourceTree = "<group>"; };
+		15FA55B7F64D450C84922958 /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
+		1A4028EFF5234C7C9E6D4B19 /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Solid.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; };
+		2654444A5B554E8BBCD09639 /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
+		370E45FBEE044584A3AC57C8 /* AntDesign.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = AntDesign.ttf; path = "../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; };
+		396CBA5BAE2B422FA816EEB9 /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
+		3C1F33046F084C9D8B16923F /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
+		47839B2D322B4ED7853AC6BB /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
 		54FBDF04FC8E261B703AAAE0 /* Pods-GestorWifiBT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GestorWifiBT.release.xcconfig"; path = "Target Support Files/Pods-GestorWifiBT/Pods-GestorWifiBT.release.xcconfig"; sourceTree = "<group>"; };
+		622F05B15EAA40EABF5B600F /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Regular.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; };
+		7726C14A52A345BBBB5F82F0 /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = GestorWifiBT/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		823B07D2C0A24667B169D21F /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
+		857C3893181E45158EA47590 /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Brands.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; };
 		9A5B74174F19AC21276CE0B9 /* libPods-GestorWifiBT-GestorWifiBTTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GestorWifiBT-GestorWifiBTTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A24E9537D16B42D0BD4544D6 /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
+		A5DA006F38104C2C807F7FAA /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
+		BCF156F2CF3846A09665A081 /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
+		D1B3283EE17244C1BC1EE5FA /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
 		D58584F6FFD54AAF53E638A1 /* Pods-GestorWifiBT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GestorWifiBT.debug.xcconfig"; path = "Target Support Files/Pods-GestorWifiBT/Pods-GestorWifiBT.debug.xcconfig"; sourceTree = "<group>"; };
 		E17DE7A0E7151FBF14D4C9CD /* Pods-GestorWifiBT-GestorWifiBTTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GestorWifiBT-GestorWifiBTTests.debug.xcconfig"; path = "Target Support Files/Pods-GestorWifiBT-GestorWifiBTTests/Pods-GestorWifiBT-GestorWifiBTTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E5F3A5C55D574B1D8FF1D3D5 /* Fontisto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Fontisto.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		FA3BD6948922A64F88EA1449 /* Pods-GestorWifiBT-GestorWifiBTTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GestorWifiBT-GestorWifiBTTests.release.xcconfig"; path = "Target Support Files/Pods-GestorWifiBT-GestorWifiBTTests/Pods-GestorWifiBT-GestorWifiBTTests.release.xcconfig"; sourceTree = "<group>"; };
 		FF020409AC31DA6A94DA386E /* libPods-GestorWifiBT.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GestorWifiBT.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -59,6 +96,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DFE616626B1F13C00EA1E97 /* ExternalAccessory.framework in Frameworks */,
+				0DFE616826B1F16500EA1E97 /* MapKit.framework in Frameworks */,
 				4BB88D54EB35E74255B59412 /* libPods-GestorWifiBT.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -86,6 +125,7 @@
 		13B07FAE1A68108700A75B9A /* GestorWifiBT */ = {
 			isa = PBXGroup;
 			children = (
+				0DFE616426B1EE9000EA1E97 /* GestorWifiBT.entitlements */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
@@ -104,18 +144,42 @@
 				E17DE7A0E7151FBF14D4C9CD /* Pods-GestorWifiBT-GestorWifiBTTests.debug.xcconfig */,
 				FA3BD6948922A64F88EA1449 /* Pods-GestorWifiBT-GestorWifiBTTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0DFE616726B1F16500EA1E97 /* MapKit.framework */,
+				0DFE616526B1F13C00EA1E97 /* ExternalAccessory.framework */,
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				FF020409AC31DA6A94DA386E /* libPods-GestorWifiBT.a */,
 				9A5B74174F19AC21276CE0B9 /* libPods-GestorWifiBT-GestorWifiBTTests.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		39422803B31246F485687138 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				370E45FBEE044584A3AC57C8 /* AntDesign.ttf */,
+				BCF156F2CF3846A09665A081 /* Entypo.ttf */,
+				A5DA006F38104C2C807F7FAA /* EvilIcons.ttf */,
+				7726C14A52A345BBBB5F82F0 /* Feather.ttf */,
+				823B07D2C0A24667B169D21F /* FontAwesome.ttf */,
+				857C3893181E45158EA47590 /* FontAwesome5_Brands.ttf */,
+				622F05B15EAA40EABF5B600F /* FontAwesome5_Regular.ttf */,
+				1A4028EFF5234C7C9E6D4B19 /* FontAwesome5_Solid.ttf */,
+				E5F3A5C55D574B1D8FF1D3D5 /* Fontisto.ttf */,
+				15FA55B7F64D450C84922958 /* Foundation.ttf */,
+				3C1F33046F084C9D8B16923F /* Ionicons.ttf */,
+				47839B2D322B4ED7853AC6BB /* MaterialCommunityIcons.ttf */,
+				A24E9537D16B42D0BD4544D6 /* MaterialIcons.ttf */,
+				396CBA5BAE2B422FA816EEB9 /* Octicons.ttf */,
+				D1B3283EE17244C1BC1EE5FA /* SimpleLineIcons.ttf */,
+				2654444A5B554E8BBCD09639 /* Zocial.ttf */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -134,6 +198,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				16BF70DC279DFDB13A05708B /* Pods */,
+				39422803B31246F485687138 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -245,6 +310,22 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				29A89D517C8641C1A5255C9E /* AntDesign.ttf in Resources */,
+				BEB6DAE6E65C4BCA82072B6D /* Entypo.ttf in Resources */,
+				1154F98177004A52BC53393D /* EvilIcons.ttf in Resources */,
+				FB133421EA3B43A886D47DA2 /* Feather.ttf in Resources */,
+				D1684E1AC96841FDBE4EB284 /* FontAwesome.ttf in Resources */,
+				41094DE6A360469C9B10F318 /* FontAwesome5_Brands.ttf in Resources */,
+				A7FE33BD385044C78F4D881B /* FontAwesome5_Regular.ttf in Resources */,
+				D6CB567D87754CA68AA869E4 /* FontAwesome5_Solid.ttf in Resources */,
+				8CDF837F99DE4AA3866ABED9 /* Fontisto.ttf in Resources */,
+				36B1AAC619ED4D77A9C6060B /* Foundation.ttf in Resources */,
+				2AA596CBCF8040E2B4C47B54 /* Ionicons.ttf in Resources */,
+				BA939128A11A406B8AD30B53 /* MaterialCommunityIcons.ttf in Resources */,
+				2322509E71964B8CAFB62CF1 /* MaterialIcons.ttf in Resources */,
+				713AE824F4934496913E2B35 /* Octicons.ttf in Resources */,
+				13DBBB7C054D4FFF836350B1 /* SimpleLineIcons.ttf in Resources */,
+				4EF05EB9A5074760A36704E7 /* Zocial.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,7 +404,7 @@
 		};
 		CB1834E11EE048340BEC540C /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 8;
 			files = (
 			);
 			inputFileListPaths = (
@@ -333,7 +414,7 @@
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-GestorWifiBT/Pods-GestorWifiBT-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
-			runOnlyForDeploymentPostprocessing = 0;
+			runOnlyForDeploymentPostprocessing = 1;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GestorWifiBT/Pods-GestorWifiBT-resources.sh\"\n";
 			showEnvVarsInLog = 0;
@@ -484,7 +565,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = GestorWifiBT/GestorWifiBT.entitlements;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JCG8V9CAT2;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = GestorWifiBT/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -496,7 +579,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = org.reactjs.native.GestorWifiBT;
 				PRODUCT_NAME = GestorWifiBT;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -510,7 +593,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = GestorWifiBT/GestorWifiBT.entitlements;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JCG8V9CAT2;
 				INFOPLIST_FILE = GestorWifiBT/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -521,7 +606,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = org.reactjs.native.GestorWifiBT;
 				PRODUCT_NAME = GestorWifiBT;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
